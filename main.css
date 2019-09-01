@@ -1,0 +1,120 @@
+html {
+  font-size: 10px;
+}
+label {
+  font-size: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  font-size: 3rem;
+}
+.subheader {
+  font-size: 2rem;
+  margin-left: 2%;
+}
+input {
+  float: right;
+}
+.input {
+  width: 100%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.section1,
+.section2 {
+  width: 500px;
+  height: 250px;
+  padding-right: 2%;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.instructions > li {
+  font-size: 1.5rem;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper {
+  height: 1000px;
+  width: 1000px;
+  background-color: #ffffff;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-item: flex-start;
+}
+.timeline {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 720px;
+  padding: 10px 10px;
+  width: 100px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.timeline > li {
+  /*  padding: 2% 2%;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.time {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000000;
+}
+.meridium {
+  padding-left: 7%;
+  padding-top: 3%;
+  font-size: 1rem;
+  color: grey;
+}
+.sub-time {
+  font-size: 1rem;
+  color: grey;
+  text-align: right;
+}
+.lunchEvents {
+  width: 620px;
+  height: 720px;
+  padding: 10px 10px;
+  background-color: #eff0f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#group-events {
+  flex-basis: 0;
+  flex-grow: 1;
+  position: relative;
+}
+#single-event {
+  background-color: #ffffff;
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 3;
+}
+#formedInputArray {
+  font-size: 1.4rem;
+}
+#control-label {
+  font-weight: bold;
+  display: block;
+  margin-left: 2%;
+}
